@@ -1,4 +1,4 @@
-# Storybook Examples with Pini Integration
+# Storybook Examples with Pinia + Vue Integration
 
 This repository Page story example which can be used as a reference while Integrating Pini/Vue in Storybook
 ## Getting Started
