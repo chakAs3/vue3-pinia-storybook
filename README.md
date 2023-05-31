@@ -1,6 +1,6 @@
 # Storybook Examples with Pinia + Vue Integration
 
-This repository Page story example which can be used as a reference while Integrating Pini/Vue in Storybook
+This repository contains story example (Page.stories, Page.vue )   which can be used as a reference while Integrating Pini/Vue in Storybook
 ## Getting Started
 
 To get started with the project, simply clone the repository and install the dependencies using the following command:
