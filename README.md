@@ -9,7 +9,7 @@ To get started with the project, simply clone the repository and install the dep
 pnpm install
 
 
-### Adding Vuetify
+### Adding Pinia
 
 This project is already set up to work with Vuetify. To add pini in your own project, you can follow these steps:
 
