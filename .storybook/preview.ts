@@ -2,6 +2,7 @@ import  { type Preview , setup }  from '@storybook/vue3';
 import {  type App } from 'vue'
 
 import { createPinia } from 'pinia'
+import piniaPluginPersistedstate from 'pinia-plugin-persistedstate'
 
 
 const preview: Preview = {
@@ -21,6 +22,7 @@ const preview: Preview = {
 
 
 const pinia = createPinia()
+pinia.use(piniaPluginPersistedstate)
 
 setup((app:App) => {
  
