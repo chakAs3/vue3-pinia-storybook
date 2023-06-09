@@ -18,6 +18,17 @@ This project is already set up to work with Vuetify. To add pini in your own pro
 
 pnpm add pinia 
 
+2. go to your `preview.ts` file and create your pinia app then pass it to the Vue app:
+
+```ts
+const pinia = createPinia()
+pinia.use(piniaPluginPersistedstate)
+
+setup((app:App) => {
+  app.use(pinia)
+})
+```
+
 ### Running Storybook
 
 To run the project, use the following command:
